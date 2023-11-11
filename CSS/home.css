@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 28px 12px;
+    background-color: #3a4886;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index:1000;
+    position: sticky;
+    width: 100%;
+    transition: all .50s ease;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:bolder;
+    padding: 5px 0;
+    margin: 0px 30px;
+    color: rgb(75, 233, 13);
+    transition: all .50s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: yellow;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height:2px;
+    background: yellow;
+    position: absolute;
+    bottom: -2px;
+    left: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    clip-path:circle();
+}
+
+#mobile {
+    font-size: 25px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+    min-height: 100vh;
+}
+
+h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+
+h1{
+    text-align: center;
+    align-items: center;
+}
+
+
+.coming-soon {
+    min-height: 100vh;
+    display: flex;
+    flex-direction:row;
+    flex-direction: column;
+
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.day,.hour,.minute,.second {
+    font-size: 3rem;
+}
+
+.waiting {
+    height:50vh;
+}
+
+section-p1 {
+    padding:40px 80px ;
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 20px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box img {
+    margin-bottom: 10px;
+}
+
+#feature .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color:black;
+    background-color: mistyrose;
+    font-weight: bold;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: lightblue;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color:deeppink;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color:greenyellow;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color:khaki;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color:peru;
+}
+
+#product1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 20%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.02ms ease;
+    position: relative;
+}
+
+#product1 .pro .img1 {
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro .des {
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span {
+    color:darkred;
+    font-size: 15px;
+}
+
+#product1 .pro .des h5 {
+    padding-top: 7px;
+    color: black;
+    font-size: 14px;
+}
+
+#product1 .pro .des .star {
+    color: gold;
+}
+
+#product1 .pro .des i {
+    font-size: 10px;
+}
+
+#product1 .pro .des h4 {
+    padding: 7px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    color:darkseagreen;
+}
+
+@media (max-width: 1280px) {
+    #header {
+        padding:14px 2%;
+        transition: .2s;
+        
+    }
+}
+
