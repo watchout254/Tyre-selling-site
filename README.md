@@ -1,6 +1,6 @@
 # Tyre-selling-site
 A Simple website where tyre owner showcases his/her products. is legit....it is done.
-# How tp access this site:
+# How to access this site:
 1. Download Xampp
 2. Start Apache and MySQL
 3. Select MySQL Admin
