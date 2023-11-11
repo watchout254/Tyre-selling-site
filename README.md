@@ -8,4 +8,7 @@ A Simple website where tyre owner showcases his/her products. is legit....it is 
 
 ![image](https://github.com/watchout254/Tyre-selling-site/assets/88248852/6a52aba6-12c2-415f-933c-56898bd013a4)
 
+## Blogs page
+
+![image](https://github.com/watchout254/Tyre-selling-site/assets/88248852/0d020112-6330-463f-a5e3-1129e86d6507)
 
