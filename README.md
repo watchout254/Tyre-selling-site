@@ -1,5 +1,16 @@
 # Tyre-selling-site
 A Simple website where tyre owner showcases his/her products. is legit....it is done.
+# How tp access this site:
+1. Download Xampp
+2. Start Apache and MySQL
+3. Select MySQL Admin
+4. Download Tyre-seeling-site (The above website) folder or ZIP file
+5. Move the folder to local disk then move it to Xampp folder and afterwards move it to htdocs folder
+6. Open your browser
+7. In the URL bar, type <localhost/Tyre-selling-site/> or localhost and the name of the folder
+8. Successfully run the webiste. Lovely
+
+
 ## Welcome page
 
 ![snap 1](https://github.com/watchout254/Tyre-selling-site/assets/88248852/55c69f91-42f8-446f-9e8b-87b6fc5aa2e4)
