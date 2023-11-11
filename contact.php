@@ -25,7 +25,6 @@
                 <li><a href="blog.html">BLOG</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a class="active" href="contact.html">CONTACT</a></li>
-                <li><a href="./ADMIN/index.html">ADMIN</a></li>
                 <a href="#" id="close"><img src="./IMAGES/tinga.png" alt="" width="15px"></a>
             </ul>
         </div>
