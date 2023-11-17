@@ -45,7 +45,7 @@
 
                 <li>
                     <i class="far fa-envelope"></i>
-                    <p>aleko@gmail.com</p>
+                    <p>azooo@gmail.com</p>
                 </li>
 
                 <li>
